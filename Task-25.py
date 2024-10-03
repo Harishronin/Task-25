@@ -1,6 +1,6 @@
 """
  Name : Harish kumar
- Date : 30-Sep-2024
+ Date : 03-Oct-2024
  Program 1 : Using python selenium explicit wait,expected conditions and chrome web driver 
 1.fill the data given in the input boxes,select boxes and drop down menu on the web page and do a search. 
  """
@@ -68,6 +68,6 @@ if __name__ == "__main__":
     # Clicking the "Search" button
     automation.click_button('//button[contains(text(), "Search")]')
 
-    
+    #close browser
     automation.close_browser()
 
